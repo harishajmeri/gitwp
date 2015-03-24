@@ -1,0 +1,74 @@
+/* This file is loaded on all admin pages, so be specific! */
+
+select[disabled] {
+	color: #ADA9A5;
+}
+
+.column-thumbnail {
+	width: 80px;
+	text-align: center;
+}
+
+#featured-pricing {
+	width: auto;
+	margin: 16px 4px;
+}
+
+#category-surcharge-pricing {
+	width: auto;
+	margin: 16px 4px;
+}
+
+
+#category-surcharge-pricing thead p.description {
+	margin: 0;
+	font-size: 11px;
+	display: inline-block;
+}
+
+/* listing location meta box */
+#normal-sortables #listing-location.postbox #listing-map,
+#normal-sortables #listing-location.postbox #listing-find-on-map,
+#normal-sortables #event-location.postbox #event-map,
+#normal-sortables #event-location.postbox #event-find-on-map {
+	margin: 10px;
+}
+
+#normal-sortables #listing-location.postbox #listing-address,
+#normal-sortables #event-location.postbox #listing-address {
+	width: 25em;
+}
+
+#normal-sortables #listing-location.postbox #listing-map,
+#normal-sortables #event-location.postbox #event-map {
+	width: 520px;
+	height: 300px;
+	position: relative;
+}
+
+#side-sortables #listing-location.postbox #listing-map,
+#side-sortables #event-location.postbox #event-map {
+	width: 260px;
+	height: 260px;
+}
+
+#side-sortables #listing-location.postbox .form-table th,
+#side-sortables #event-location.postbox .form-table th {
+	padding: 10px 0;
+}
+
+#side-sortables #listing-location.postbox .form-table td,
+#side-sortables #event-location.postbox .form-table td {
+	padding: 5px 0;
+}
+
+#side-sortables #listing-location.postbox #listing-find-on-map,
+#side-sortables #event-location.postbox #event-find-on-map {
+	margin: 10px 0;
+}
+
+.listing-gallery-info {
+	font: italic 10px sans-serif;
+	display: block;
+	color: #666;
+}
